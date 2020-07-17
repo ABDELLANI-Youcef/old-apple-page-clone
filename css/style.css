@@ -1,35 +1,91 @@
+/* ================================ GRID AREA ================ */
+
 .grid-container {
-    display: grid;
-    grid-template-areas:
+  display: grid;
+  grid-template-areas:
   'header header header header '
   'photo1 photo2 photo3 photo4 '
   'footer1 footer1 footer2 footer2 ';
+  width: 80%;
+  margin: 0 auto;
+  grid-gap: 1px;
 }
 
 .header {
-    grid-area: header;
+  grid-area: header;
 }
 
 .photo1 {
-    grid-area: photo1;
+  grid-area: photo1;
 }
 
 .photo2 {
-    grid-area: photo2;
+  grid-area: photo2;
 }
 
 .photo3 {
-    grid-area: photo3;
+  grid-area: photo3;
 }
 
 .photo4 {
-    grid-area: photo4;
+  grid-area: photo4;
 }
 
 .footer1 {
-    grid-area: footer1;
+  grid-area: footer1;
 }
 
 .footer2 {
-    grid-area: footer2;
+  grid-area: footer2;
+}
+
+/* ========================== HEADER ================== */
+
+.big-image {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../images/header.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* =========================== PHOTO SECTION ============= */
+
+.cell {
+  width: 100%;
+  height: 100%;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+}
+
+/* =========================== FOOTER SECTION ============== */
+
+.info {
+  font-size: 10px;
+  color: grey;
+}
+
+.info-link {
+  text-decoration: none;
+  color: #326891;
+}
+
+.info-right {
+  padding-left: 5%;
+  margin-top: 20px;
+}
+
+.info-left {
+  padding-left: 15%;
+  margin-top: 20px;
+}
+
+.little-image {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
 }

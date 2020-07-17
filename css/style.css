@@ -1,0 +1,35 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+  'header header header header '
+  'photo1 photo2 photo3 photo4 '
+  'footer1 footer1 footer2 footer2 ';
+}
+
+.header {
+    grid-area: header;
+}
+
+.photo1 {
+    grid-area: photo1;
+}
+
+.photo2 {
+    grid-area: photo2;
+}
+
+.photo3 {
+    grid-area: photo3;
+}
+
+.photo4 {
+    grid-area: photo4;
+}
+
+.footer1 {
+    grid-area: footer1;
+}
+
+.footer2 {
+    grid-area: footer2;
+}

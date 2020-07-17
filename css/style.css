@@ -3,9 +3,9 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-  'header header header header '
-  'photo1 photo2 photo3 photo4 '
-  'footer1 footer1 footer2 footer2 ';
+    'header header header header '
+    'photo1 photo2 photo3 photo4 '
+    'footer1 footer1 footer2 footer2 ';
   width: 80%;
   margin: 0 auto;
   grid-gap: 1px;
@@ -55,7 +55,7 @@
   height: 100%;
   opacity: 1;
   color: white;
-  font-family: 'Mukta', sans-serif; 
+  font-family: 'Mukta', sans-serif;
 }
 
 .big-text {
@@ -64,7 +64,6 @@
   text-align: center;
   top: 10%;
   font-weight: 100;
-    
 }
 
 .medium-text {
@@ -117,16 +116,16 @@
 
 .navbar-item img {
   width: 20px;
-  height: 20pxs;
+  height: 20px;
 }
 
 .apple-logo {
-  position:relative;
+  position: relative;
   top: 5px;
 }
 
 .search-bar {
-  flex:2;
+  flex: 2;
   text-align: center;
 }
 
@@ -143,6 +142,7 @@
   width: 80%;
   background: linear-gradient(#555251 50%, #7f7d7c 100%);
 }
+
 /* =========================== PHOTO SECTION ============= */
 
 .cell {

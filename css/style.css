@@ -9,8 +9,8 @@ body {
   grid-template-areas:
     'header header header header '
     'photo1 photo2 photo3 photo4 '
-    'footer1 footer1 footer2 footer2 ';
-  width: 80%;
+    'footer1 footer1 footer1 footer1 ';
+  width: 100%;
   margin: 0 auto;
   grid-gap: 1px;
 }
@@ -21,26 +21,46 @@ body {
 
 .photo1 {
   grid-area: photo1;
+  width: 25vw;
+  height: 15vw;
+  background-image: url(../images/iphone1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .photo2 {
   grid-area: photo2;
+  width: 25vw;
+  height: 15vw;
+  background-image: url(../images/iphone2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .photo3 {
   grid-area: photo3;
+  width: 25vw;
+  height: 15vw;
+  background-image: url(../images/apple1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .photo4 {
   grid-area: photo4;
+  width: 25vw;
+  height: 15vw;
+  background-image: url(../images/apple2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer1 {
   grid-area: footer1;
-}
-
-.footer2 {
-  grid-area: footer2;
 }
 
 /* ========================== HEADER ================== */
@@ -164,6 +184,16 @@ body {
 }
 
 /* =========================== FOOTER SECTION ============== */
+
+footer {
+  display: flex;
+  align-content: stretch;
+  justify-content: space-between;
+}
+
+.footer-page {
+  flex: 1;
+}
 
 .info {
   font-size: 10px;
